@@ -27,14 +27,13 @@ spec:
           # This loads all key-value pairs from the secret as environment variables
           - secretRef:
               name: backend-aws-secrets
-
 ---
 # --- 3. Service ---
 # This exposes your backend pods with a stable network endpoint.
 apiVersion: v1
 kind: Service
 metadata:
-  name: namespace: presigned-url-upload-artifact-backend
+  name: presigned-url-upload-artifact-backend
   namespace: presigned-url-upload-artifact
 spec:
   # Use ClusterIP for internal communication within the cluster.
