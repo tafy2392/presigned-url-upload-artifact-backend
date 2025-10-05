@@ -20,7 +20,7 @@ spec:
       containers:
       - name: backend-container
         # IMPORTANT: Replace this with the actual path to your image
-        image: ghcr.io/tafy2392/presigned-url-upload-artifact-backend:sha-37c2a6b
+        image: ghcr.io/tafy2392/presigned-url-upload-artifact-backend:sha-18fdc84
         ports:
         - containerPort: 3000
         envFrom:
